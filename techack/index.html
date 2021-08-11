@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">RIGHTS</a></li>
+                    <li><a href="">HIRE</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Largest Community of Lawyers</h1>
+            <p>Largest community of lawyer who can help you get justice.<br>
+            Sign Up to know more!</p><br>
+            <a href="" class="btn">Visit Us To Know More</a>
+        </div>
+        </div>
+    </section>
+
+<!--Skills-->
+
+<section class="skills">
+    <h1>WE for WomEn</h1>
+    <p>We have communities based on the skills and fields you work in.</p>
+    <div class="row">
+        <div class="community-col">
+            <h3>Types of community</h3>
+            <p>ahdkjashaksdalksdj</p>
+        </div>
+        <div class="community-col">
+            <h3>Types of community</h3>
+            <p>ahdkjashaksdalksdj</p>
+        </div>
+        <div class="community-col">
+            <h3>Types of community</h3>
+            <p>ahdkjashaksdalksdj</p>
+        </div>
+    </div>
+</section>
+
+<!---->
+<section class="environment">
+    <h1>Cases We Seek</h1>
+    <p>We are a community of lawyers who help women to get justice. In this<br> 
+        victim blaming society, we try to make things more li<br>
+        meeting and mentoring.<br>
+        &emsp; We believe that education is for everyone and technology can help women<br>
+        to show that they are also efficient and reliable.
+    </p>
+    <div class="row">
+        <div class="environment-col">
+            <img src="images/dowry.jpg">
+            <div class="layer">
+                <h3>DOWRY DEATHS</h3>
+            </div>
+        </div>
+        <div class="environment-col">
+            <img src="images/femalefoeticide.jpg">
+            <div class="layer">
+                <h3>FEMALE INFANTICIDE AND SEX-SELECTION ABORTION</h3>
+            </div>
+        </div>
+        <div class="environment-col">
+            <img src="images/humantrafficking.jpg">
+            <div class="layer">
+                <h3>HUMAN TRAFFICKING AND FORCED PROSTITUTION</h3>
+            </div>
+        </div>
+        <div class="environment-col">
+            <img src="images/rape.webp">
+            <div class="layer">
+                <h3>RAPE</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
